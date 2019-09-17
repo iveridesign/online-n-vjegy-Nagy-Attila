@@ -34,11 +34,12 @@ a:hover {
 .profile-image, .name-headline, .about, .section-links {
   	background-color: hsla(300, 76%, 72%, .4);
  }
- 
+
 .profile-card {
 	background-color: hsla(60, 100%, 50%, .4)
 	width: 480px;
-    max-width: calc(100vw - 10px);
+  max-width: calc(100vw - 10px);
+  max-height: calc(100vh - 100px);
 }
 
 .head, .content {
@@ -64,4 +65,45 @@ a:hover {
 .head, .content {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%; 
+  padding: 10px;
+}
+
+.content {
+  padding: 5% 10%;
+  margin: 5px auto;
+}
+
+.section-links, .name-headline {
+	padding: 10px;
+	margin: 0;
+}
+
+body {
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
