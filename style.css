@@ -1,0 +1,14 @@
+html, body {
+	font-family: Verdana;
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: lightblue;
+}
