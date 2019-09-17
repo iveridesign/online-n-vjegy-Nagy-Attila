@@ -16,10 +16,15 @@ html, body {
 
 a {
 	color: blue;
+  padding: 15px;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
 }
 
 a:hover {
 	color: lightblue;
+  padding: 15px;
+  font-size: 40px;
 }
 
 .profile-card {
@@ -51,7 +56,7 @@ img {
   height: 120px;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(50%);
+  filter: grayscale(10%);
 }
 
 .profile-image {
@@ -73,6 +78,10 @@ li {
   padding: 10px;
 }
 
+.head {
+  height: 130px;
+}
+
 .content {
   padding: 5% 10%;
   margin: 5px auto;
@@ -81,6 +90,11 @@ li {
 .section-links, .name-headline {
 	padding: 10px;
 	margin: 0;
+}
+
+
+.section-links {
+  max-height: 10%;
 }
 
 body {
@@ -105,5 +119,23 @@ img {
 
 img:hover {
   transform: scale(1.1);
-  filter: grayscale(20%);
+  filter: grayscale(50%);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 13px;
+  text-align: center;
+}
+
+p{
+  font-size: 15px;
+  text-align: left;
 }
