@@ -12,3 +12,17 @@ a {
 a:hover {
 	color: lightblue;
 }
+
+.profile-card {
+	background-color: hsla(60, 100%, 50%, .4)
+}
+
+
+.head, .content {
+	background-color: hsla(147, 50%, 47%, .4);
+}
+
+.profile-image, .name-headline, .about, .section-links
+  {
+  	background-color: hsla(300, 76%, 72%, .4);
+ }
