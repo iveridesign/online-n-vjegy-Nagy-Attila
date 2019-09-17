@@ -1,3 +1,12 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
 html, body {
 	font-family: Verdana;
 	font-size: 15px;
@@ -22,7 +31,37 @@ a:hover {
 	background-color: hsla(147, 50%, 47%, .4);
 }
 
-.profile-image, .name-headline, .about, .section-links
-  {
+.profile-image, .name-headline, .about, .section-links {
   	background-color: hsla(300, 76%, 72%, .4);
  }
+ 
+.profile-card {
+	background-color: hsla(60, 100%, 50%, .4)
+	width: 480px;
+    max-width: calc(100vw - 10px);
+}
+
+.head, .content {
+	background-color: hsla(147, 50%, 47%, .4);
+}
+
+.profile-image, .name-headline, .about, .section-links {
+  	background-color: hsla(300, 76%, 72%, .4);
+ }
+
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:  100vh;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
